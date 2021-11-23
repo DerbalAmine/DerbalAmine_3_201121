@@ -3,14 +3,22 @@
       <head>
         <meta charset="utf-8">
         <title>OH MY FOOD</title>
+        <script src="https://kit.fontawesome.com/daa7ee3df5.js" crossorigin="anonymous"></script>  
       </head>
 
       <body>
           <header>
             <section class="flex-container">
                       <div class="logo"><img src="images/logo/ohmyfood.png" alt="images de presentation du site"></div>
-                      <p>Paris, Belleville</p>
             </section> 
+            <div class="maps">
+              <span>
+                  <i class="fas fa-map-marker-alt"></i>
+              </span>
+                <span class="maps__search">
+                  <input type="search" name="city" value="Paris,Belleville" placeholder="Votre ville">
+                </span>
+            </div>
           </header>
             <section>
               <h1>Reserver le menu qui vous convient</h1>
@@ -22,14 +30,25 @@
             <nav class="fonction">
               <h2>Fonctionnement</h2>
               <ol>
-              <li> choisissez un restaurant </li>
+              <div class="icone">
+                <i class="fas fa-mobile-alt operation__steps--icon"></i>
+                <li> choisissez un restaurant </li>
+              </div>
+              <div class="icone">
+              <i class="fas fa-list-ul operation__steps--icon"></i>
               <li> compososer votre menu </li> 
-              <li> deguster au restaurant </li>   
+              </div>
+              <div class="icone">
+                <i class="fas fa-store operation__steps--icon"></i>
+                <li> deguster au restaurant </li>  
+              </div>
               </ol>            
             </nav>
                 <main>
                     <section id="Restaurants">
+                      <div class="titleResto">
                       <h2>Restaurants</h2>
+                      </div>
                       <article class="container-items">
                         <a href="./La palette du gout.html">
                           <figure class="figureResto">
@@ -37,6 +56,7 @@
                               <figcaption class="RestoDescription">
                                 <h4 class="RestoName" >la palette du gout</h4>
                                   <p>Menilmontant</p>
+                                  <span><i class="fill far fa-heart fa-2x"></i></span>
                               </figcaption>
                           </figure> 
                         </a>     
@@ -48,6 +68,7 @@
                               <figcaption class="RestoDescription">
                                 <h4 class="RestoName" >la note enchantee</h4>
                                   <p>Charonne</p>
+                                  <span><i class="fill far fa-heart fa-2x"></i></span>
                               </figcaption>
                           </figure> 
                         </a>     
@@ -59,6 +80,7 @@
                               <figcaption class="RestoDescription">
                                 <h4 class="RestoName" >A la francaise</h4>
                                   <p>cite Rouge</p>
+                                  <span><i class="fill far fa-heart fa-2x"></i></span>
                               </figcaption>
                           </figure> 
                         </a>     
@@ -70,6 +92,7 @@
                               <figcaption class="RestoDescription">
                                 <h4 class="RestoName" >le delice des sens</h4>
                                   <p>Folie-Mericourt</p>
+                                  <span><i class="fill far fa-heart fa-2x"></i></span>
                               </figcaption>
                           </figure> 
                         </a>     
@@ -82,7 +105,7 @@
                           <li><a href="">Proposer un restaurant</a></li>
                           <li><a href="">Devenir partenaire</a></li>
                           <li><a href="">Mention legales</a></li>
-                          <li><a href="">Contact</a></li>
+                          <li><a href="mailto:ohmyfood-contact@gmail.com">Contact</a></li>
                         </ul>
                       </footer>
 

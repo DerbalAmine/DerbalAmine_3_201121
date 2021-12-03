@@ -7,6 +7,14 @@
         align-items: center;
         background-color: #eaeaea;
     }
+    main h1
+    {
+        font-family: 'Shrikhand';
+        font-size: 30px;
+        font-weight: 400;
+        padding: 15px 0 10px;
+        margin: 0px
+    }
     .logo img 
     {
         width: 175px;
@@ -32,7 +40,7 @@
         text-decoration: none;
         box-shadow: 4px 4px 10px #cfcfcf;
         cursor: pointer;
-        width: 100%;
+        width: 60%;
     }
     .presentation
     {
@@ -97,12 +105,15 @@
         height:174px;
         width: 100%;
         object-fit: cover;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
         
     }
     .RestoDescription
     {
         background-color: #fff;
         padding: 12px 10px;
+        border-radius: 35px;
        
     }
     .container-items
@@ -117,6 +128,7 @@
     .figureResto
     {
         background-color: white;
+        border-radius: 40px;
         position: relative;
         margin-bottom: 20px;
         box-shadow: 0px 0px 0.5rem 0px #cfcfcf;
@@ -149,12 +161,26 @@
     {
         padding-left: 12px;
     }
-    .menu_card
-    
+    .picture img 
     {
-     display: flex;
+        width: 100%;
     }
-    
+    .arrow
+    {
+        padding-right: 20rem;
+    }
+    .titleName
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 15px 0 15px;
+
+    }
+    .titleName i{
+        padding-top: 20px;
+        padding-right: 14px;
+    }
     footer
     {
         background-color: #353535;
@@ -178,6 +204,67 @@
     {
         color: white;
         text-decoration: none;
+    }
+    .menu_card
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        position: relative;
+        background-color: white;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 0.5rem 0px #cfcfcf;
+
+    }
+    .noteEnchantee
+    {
+    background-color: #f6f6f6;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: -60px;
+    padding-bottom: 56px;
+    position: relative;
+    
+    }
+    .entrer h2
+    {
+        font-weight: 300;
+        position: relative;
+    }
+    .Plats h2
+    {
+        font-weight: 300;
+        position: relative;
+    }
+    .Desserts h2
+    {
+        font-weight: 300;
+        position: relative;
+    }
+    .entrer
+    {
+        text-align: left;
+        max-width: 350px;
+        width: 100%;
+        padding-left: 12px;
+    
+    }
+    .Plats
+    {
+        text-align: left;
+        max-width: 350px;
+        width: 100%;
+        padding-left: 12px;
+    }
+    .Desserts
+    {
+        text-align: left;
+        max-width: 350px;
+        width: 100%;
+        padding-left: 12px;
     }
     
 }

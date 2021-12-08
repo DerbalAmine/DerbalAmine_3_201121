@@ -13,9 +13,9 @@
     main h1
     {
         font-family: 'Shrikhand';
-        font-size: 30px;
+        font-size: 28px;
         font-weight: 400;
-        padding: 15px 0 10px;
+        padding: 15px 3px 10px;
         margin: 0px
     }
     .logo img 
@@ -24,16 +24,89 @@
         padding-top: 10px;
         padding-bottom: 6px;
     }
+    .headerfr{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 25%;
+    }
+    .arrow{
+        margin-left: 7%;
+        color: #020024;
+    }
+    .fonction
+    {
+        margin-left: 6px;
+    }
     .choice_text
     {
-    padding-left: 10px;
+    padding-left: 17px;
     font-weight: 500;
     }
-    #Restaurants
+    #Restaurants 
     {
         background-color: #f6f6f6;
         padding: 15px 0 60px;
         text-align: left;
+        margin: auto;
+    }
+    
+    .restaurant-card {
+        margin:	auto;
+        width:	95%;
+    }
+    .container-items a
+     {
+        text-decoration: none;
+        color: #020024;
+        height: 100%;
+    }
+    
+    .figureResto 
+    {    
+        height: 100%;
+        margin: 0px;
+    }
+    .imgResto
+    {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        position: relative;
+        
+    }
+    .imgnew 
+    {
+        position: absolute;
+        right: 20px;
+        background-color: #99e2d0;
+        color: #008766;
+        font-size: 14px;
+        padding: 7px;
+    }
+    
+    .figureResto img 
+    {    
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .imgnewnone 
+    {    
+       display: none;
+    }
+    
+    .RestoDescription 
+    {    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px;
+        background-color: white;
+    }
+    .coeur{
+
     }
     .searchButton
     {
@@ -58,7 +131,8 @@
         font-size: 18px;
         margin-bottom: 30px;
     }
-    .presentation h1{
+    .presentation h1
+    {
         font-size: 26px;
     }
     .fonction h2
@@ -87,13 +161,21 @@
         display: flex;
         align-items: center;
         padding: 26px;
-        width: 255px;
+        width: 75%;
         background-color: #f6f6f6;
         border-radius: 25px;
-        margin: 0 24px 24px 24px;
+        margin: 0 24px 24px 13px;
         list-style-type: none;
-        position: relative;
         box-shadow: 4px 4px 10px #cfcfcf;
+    }
+    .container-items
+     {
+        box-sizing: border-box;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 0 7px #c1c1c1;
+        margin: 15px 15px;
+        height: 245px;
     }
     .choice_number 
     {
@@ -104,57 +186,14 @@
         background: #9356DC;
         border-radius: 60px;
         color: white;
-        height: 1rem;
+        height: 1.2rem;
+        position: absolute;
     }
-
-    .figureResto img
-    {
-        height:174px;
-        width: 100%;
-        object-fit: cover;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        
-    }
-    .coeur
-    {
-        padding-left: 16rem;
-    }
-    .container-items
-    {
-        margin-bottom: 20px;
-    }
-    .container-items a
-    {
-        text-decoration: none;
-        color: #020024;
-    }
-    .figureResto
-    {
-        background-color: white;
-        width: 85%;
-        border-radius: 20px;
-        position: relative;
-        margin-bottom: 20px;
-        box-shadow: 0px 0px 0.5rem 0px #cfcfcf;
-
-    }
-    .restaurant-card
-    {
-        margin-left: -25px;
-    }
-    
     .RestoName
     {
-        padding-left: 10px;
-        margin: 5px;
-        font-weight: 800;
+        margin: 0;
     }
-    .RestoName1
-    {
-        padding-left: 10px;
-        margin: 5px;
-    }
+    
     body 
     {
         text-align: center;
@@ -165,7 +204,7 @@
     
     .titleResto
     {
-        padding-left: 20px;
+        padding-left: 26px;
     }
     .picture img 
     {
@@ -175,10 +214,7 @@
         width: 100%;
         object-position: 0% -75px;
     }
-    .arrow
-    {
-        padding-right: 20rem;
-    }
+
     .titleName
     {
         display: flex;

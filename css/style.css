@@ -51,7 +51,8 @@
         margin: auto;
     }
     
-    .restaurant-card {
+    .restaurant-card 
+    {
         margin:	auto;
         width:	95%;
     }
@@ -105,9 +106,7 @@
         padding: 18px;
         background-color: white;
     }
-    .coeur{
-
-    }
+    
     .searchButton
     {
         padding: 16px 26px;

@@ -348,3 +348,733 @@
     }
     
 }
+
+@media only screen and (min-width : 650px) and (max-width: 1367px){
+
+    .container
+    {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    
+    .container_Repas
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    .maps
+    {
+        padding: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #eaeaea;
+    }
+    .maps i{
+        padding-right: 20px;
+    }
+    main h1
+    {
+        font-family: 'Shrikhand';
+        font-size: 28px;
+        font-weight: 400;
+        padding: 15px 3px 10px;
+        margin: 0px
+    }
+    .logo img 
+    {
+        width: 175px;
+        padding-top: 10px;
+        padding-bottom: 6px;
+    }
+    .headerfr{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 25%;
+    }
+    .arrow{
+        margin-left: 7%;
+        color: #020024;
+    }
+    .fonction
+    {
+        display: inline-block;
+    }
+    .choice_text
+    {
+    padding-left: 17px;
+    font-weight: 500;
+    }
+    #Restaurants 
+    {
+        background-color: #f6f6f6;
+        padding: 15px 0 60px;
+        margin: auto;
+    }
+    
+    .restaurant-card 
+    {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+    }
+    .container-items a
+     {
+        text-decoration: none;
+        color: #020024;
+        height: 100%;
+    }
+    
+    .figureResto 
+    {    
+        height: 100%;
+        margin: 0px;
+    }
+    .imgResto
+    {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        position: relative;
+        
+    }
+    .imgnew 
+    {
+        position: absolute;
+        right: 20px;
+        background-color: #99e2d0;
+        color: #008766;
+        font-size: 14px;
+        padding: 7px;
+    }
+    
+    .figureResto img 
+    {    
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .imgnewnone 
+    {    
+       display: none;
+    }
+    
+    .RestoDescription 
+    {    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px;
+        background-color: white;
+    }
+    
+    .searchButton
+    {
+        padding: 16px 26px;
+        background-image: linear-gradient(349deg, #020024 0%, #9356DC 0%, #FF79DA 100%);
+        border-radius: 100px;
+        color: white;
+        text-decoration: none;
+        box-shadow: 4px 4px 10px #cfcfcf;
+        cursor: pointer;
+        width: 60%;
+    }
+    .presentation
+    {
+        padding: 35px 35px 70px 35px;
+        background-color: #f6f6f6;
+    }
+
+    .presentation p
+    {
+        font-weight: 300;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .presentation h1
+    {
+        font-size: 26px;
+    }
+    .fonction h2
+    {
+    text-align: center;
+  
+    }
+
+    .choice-1
+    {
+    display: flex;
+    padding-left: 7px;
+    }
+    .choice-2
+    {
+        display: flex;
+        padding-left: 7px;
+    }
+    .choice-3
+    {
+        display: flex;
+        padding-left: 7px;
+    }
+    .choice_content
+    {
+        display: flex;
+        align-items: center;
+        padding: 26px;
+        width: 75%;
+        background-color: #f6f6f6;
+        border-radius: 25px;
+        margin: 0 24px 24px 13px;
+        list-style-type: none;
+        box-shadow: 4px 4px 10px #cfcfcf;
+    }
+    .container-items
+     {
+        box-sizing: border-box;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 0 7px #c1c1c1;
+        margin: 15px 15px;
+        height: 245px;
+        width: 330px;
+    }
+    .choice_number 
+    {
+        
+        padding: 6px 10px;
+        margin-right: -25px;
+        margin-top: 20px;
+        background: #9356DC;
+        border-radius: 60px;
+        color: white;
+        height: 1.2rem;
+        position: absolute;
+    }
+    .RestoName
+    {
+        margin: 0;
+    }
+    
+    body 
+    {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif,Verdana, Tahoma, sans-serif;
+    }
+    
+
+    .picture img 
+    {
+        width: 100%;
+    }
+    .neopicture img
+    {
+        width: 100%;
+        object-position: 0% -75px;
+    }
+
+    .titleName
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 15px 0 15px;
+
+    }
+    .titleName i
+    {
+        padding-top: 20px;
+        padding-right: 14px;
+    }
+    footer
+    {
+        background-color: #353535;
+        color: white;
+        text-align: center;
+        padding: 10px 0 20px 12px;
+    }
+    footer h3
+    {
+        font-family: 'Shrikhand';
+        font-size: 20px;
+        font-weight: lighter;
+
+    }
+    footer ul
+    {
+        list-style-type: none;
+        padding: 0;
+    }
+    footer a
+    {
+        color: white;
+        text-decoration: none;
+    }
+    footer ul li
+    {
+        margin-bottom: 10px;
+
+    }
+    
+    .menu_card
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        position: relative;
+        background-color: white;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 0.5rem 0px #cfcfcf;
+
+    }
+    .restomain
+    {
+    background-color: #f6f6f6;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: -238px;
+    padding-bottom: 56px;
+    position: relative;
+    
+    }
+    .mainresto
+    {
+        background-color: #f6f6f6;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        margin-top: -52px;
+        padding-bottom: 56px;
+        position: relative;
+    }
+    #alafrancaise
+    {
+        background-color: #f6f6f6;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        margin-top: -56px;
+        padding-bottom: 56px;
+        position: relative;
+    }
+    #delicedessens
+    {
+        background-color: #f6f6f6;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        margin-top: -45px;
+        padding-bottom: 56px;
+        position: relative;
+    }
+    .entrer h2
+    {
+        font-weight: 300;
+        position: relative;
+    }
+    .Plats h2
+    {
+        font-weight: 300;
+        position: relative;
+    }
+    .Desserts h2
+    {
+        font-weight: 300;
+        position: relative;
+    }
+    .entrer
+    {
+        text-align: left;
+        max-width: 350px;
+        width: 100%;
+        padding-left: 12px;
+    
+    }
+    .Plats
+    {
+        text-align: left;
+        max-width: 350px;
+        width: 100%;
+        padding-left: 12px;
+    }
+    .Desserts
+    {
+        text-align: left;
+        max-width: 350px;
+        width: 100%;
+        padding-left: 12px;
+    }
+
+
+}
+@media only screen and (min-width : 1367px){  
+    .container
+    {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .container_Repas
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .maps
+    {
+        padding: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #eaeaea;
+    }
+    .maps i{
+        padding-right: 20px;
+    }
+    main h1
+    {
+        font-family: 'Shrikhand';
+        font-size: 28px;
+        font-weight: 400;
+        padding: 15px 3px 10px;
+        margin: 0px
+    }
+    .logo img 
+    {
+        width: 175px;
+        padding-top: 10px;
+        padding-bottom: 6px;
+    }
+    .headerfr{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 45%;
+        background-color: whitesmoke;
+    }
+    .arrow{
+        margin-left: 7%;
+        color: #020024;
+    }
+    .fonction
+    {
+        display: inline-block;
+    }
+    .choice_text
+    {
+    padding-left: 17px;
+    font-weight: 500;
+    }
+    #Restaurants 
+    {
+        background-color: #f6f6f6;
+        padding: 15px 0 60px;
+        margin: auto;
+    }
+    
+    .restaurant-card 
+    {
+        display: flex;
+    }
+    .container-items a
+     {
+        text-decoration: none;
+        color: #020024;
+        height: 100%;
+    }
+    
+    .figureResto 
+    {    
+        height: 100%;
+        margin: 0px;
+    }
+    .imgResto
+    {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        position: relative;
+        
+    }
+    .imgnew 
+    {
+        position: absolute;
+        right: 20px;
+        background-color: #99e2d0;
+        color: #008766;
+        font-size: 14px;
+        padding: 7px;
+    }
+    
+    .figureResto img 
+    {    
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .imgnewnone 
+    {    
+       display: none;
+    }
+    
+    .RestoDescription 
+    {    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px;
+        background-color: white;
+    }
+    
+    .searchButton
+    {
+        padding: 16px 26px;
+        background-image: linear-gradient(349deg, #020024 0%, #9356DC 0%, #FF79DA 100%);
+        border-radius: 100px;
+        color: white;
+        text-decoration: none;
+        box-shadow: 4px 4px 10px #cfcfcf;
+        cursor: pointer;
+        width: 60%;
+    }
+    .presentation
+    {
+        padding: 35px 35px 70px 35px;
+        background-color: #f6f6f6;
+    }
+
+    .presentation p
+    {
+        font-weight: 300;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .presentation h1
+    {
+        font-size: 26px;
+    }
+    .fonction h2
+    {
+    text-align: center;
+  
+    }
+
+    .choice-1
+    {
+    display: flex;
+    padding-left: 7px;
+    }
+    .choice-2
+    {
+        display: flex;
+        padding-left: 7px;
+    }
+    .choice-3
+    {
+        display: flex;
+        padding-left: 7px;
+    }
+    .choice_content
+    {
+        display: flex;
+        align-items: center;
+        padding: 26px;
+        width: 75%;
+        background-color: #f6f6f6;
+        border-radius: 25px;
+        margin: 0 24px 24px 13px;
+        list-style-type: none;
+        box-shadow: 4px 4px 10px #cfcfcf;
+    }
+    .container-items
+     {
+        box-sizing: border-box;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 0 7px #c1c1c1;
+        margin: 15px 15px;
+        height: 245px;
+        width: 330px;
+    }
+    .choice_number 
+    {
+        
+        padding: 6px 10px;
+        margin-right: -25px;
+        margin-top: 20px;
+        background: #9356DC;
+        border-radius: 60px;
+        color: white;
+        height: 1.2rem;
+        position: absolute;
+    }
+    .RestoName
+    {
+        margin: 0;
+    }
+    
+    body 
+    {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif,Verdana, Tahoma, sans-serif;
+    }
+    
+    .titleResto
+    {
+        padding-left: 26px;
+    }
+    .picture img 
+    {
+        width: 100%;
+    }
+    .neopicture img
+    {
+        width: 100%;
+        object-position: 0% -75px;
+    }
+
+    .titleName
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 15px 0 15px;
+
+    }
+    .titleName i
+    {
+        padding-top: 20px;
+        padding-right: 14px;
+    }
+    footer
+    {
+        background-color: #353535;
+        color: white;
+        text-align: center;
+        padding: 10px 0 20px 12px;
+    }
+    footer h3
+    {
+        font-family: 'Shrikhand';
+        font-size: 20px;
+        font-weight: lighter;
+
+    }
+    footer ul
+    {
+        list-style-type: none;
+        padding: 0;
+    }
+    footer a
+    {
+        color: white;
+        text-decoration: none;
+    }
+    footer ul li
+    {
+        margin-bottom: 10px;
+
+    }
+    
+    .menu_card
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        position: relative;
+        background-color: white;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 0.5rem 0px #cfcfcf;
+
+    }
+    .restomain
+    {
+    background-color: #f6f6f6;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: -238px;
+    padding-bottom: 56px;
+    position: relative;
+    
+    }
+    .mainresto
+    {
+        background-color: #f6f6f6;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        margin-top: -52px;
+        padding-bottom: 56px;
+        position: relative;
+    }
+    #alafrancaise
+    {
+        background-color: #f6f6f6;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        margin-top: -56px;
+        padding-bottom: 56px;
+        position: relative;
+    }
+    #delicedessens
+    {
+        background-color: #f6f6f6;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        margin-top: -45px;
+        padding-bottom: 56px;
+        position: relative;
+    }
+    .entrer h2
+    {
+        font-weight: 300;
+        position: relative;
+    }
+    .Plats h2
+    {
+        font-weight: 300;
+        position: relative;
+    }
+    .Desserts h2
+    {
+        font-weight: 300;
+        position: relative;
+    }
+    .entrer
+    {
+        text-align: left;
+        max-width: 350px;
+        width: 100%;
+        padding-left: 12px;
+    
+    }
+    .Plats
+    {
+        text-align: left;
+        max-width: 350px;
+        width: 100%;
+        padding-left: 12px;
+    }
+    .Desserts
+    {
+        text-align: left;
+        max-width: 350px;
+        width: 100%;
+        padding-left: 12px;
+    }
+
+
+
+}
+

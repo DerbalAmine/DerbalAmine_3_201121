@@ -209,7 +209,8 @@
     {
         width: 100%;
     }
-    .neopicture img{
+    .neopicture img
+    {
         width: 100%;
         object-position: 0% -75px;
     }

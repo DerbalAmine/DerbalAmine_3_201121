@@ -394,7 +394,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-right: 25%;
+        padding-right: 40%;
+        background-color: whitesmoke;
     }
     .arrow{
         margin-left: 7%;
@@ -1073,6 +1074,45 @@
         width: 100%;
         padding-left: 12px;
     }
+
+@keyframes Animation {
+      
+      
+        from {
+          -webkit-transform: scaleX(0);
+                  transform: scaleX(0);
+          opacity: 1;
+        }
+        to {
+          -webkit-transform: scaleX(1);
+                  transform: scaleX(1);
+          opacity: 1;
+        }
+      
+      
+}
+.body {
+    -webkit-animation: Animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: Animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes MyAnimation {
+    from{
+        color: #020024;
+    }
+
+    to{
+        color: red;
+    }
+}
+.coeur:hover{
+
+    animation: MyAnimation 2s;
+}
+
+
+
+
 
 
 

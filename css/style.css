@@ -270,8 +270,44 @@
         margin-bottom: 20px;
         overflow: hidden;
         box-shadow: 0px 0px 0.5rem 0px #cfcfcf;
+        cursor: pointer;
 
     }
+    .menu_card_text{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        flex: 1;
+    }
+    .menu_card_text_name{
+        margin: 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .menu_card_text_desc{
+        margin: 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .menu_card_price_text{
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-left: 0.5rem;
+    }
+    .menu_card_confirm{
+        background-color: #008766;
+        margin: -1rem -5rem -1rem 1rem;
+        width: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-duration: 0.5s;
+    }
+
     .restomain
     {
     background-color: #f6f6f6;
@@ -346,7 +382,127 @@
         width: 100%;
         padding-left: 12px;
     }
-    
+    .fa-heart:before
+{
+    font-size: x-large;
+}
+.ft
+{
+    font-weight: 400;
+    background: #000;
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+
+}
+
+.ft:hover 
+{
+    background: linear-gradient(#9356DC, #FF79DA);
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    font-weight: 900;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    animation: MyAnimation 0.3s linear;
+}
+
+
+  @keyframes MyAnimation {
+    0% {
+      background-size: 100% 0%;
+    }
+    100% {
+      background-size: 100% 100%;
+    }
+
+}
+.coeur
+{
+display: flex;
+cursor: pointer;
+}
+.menu_card
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        position: relative;
+        background-color: white;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 0.5rem 0px #cfcfcf;
+        cursor: pointer;
+
+    }
+    .menu_card_text{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        flex: 1;
+    }
+    .menu_card_text_name{
+        margin: 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .menu_card_text_desc{
+        margin: 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .menu_card_price_text{
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-left: 0.5rem;
+    }
+    .menu_card_confirm{
+       height: 1.6rem;
+       width: 1.6rem;
+       background-color: white;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 100px;
+       transform: rotate(180deg);
+       transition-duration: 0.5s;
+    }
+.checking{
+        background-color: #99e2d0;
+        margin: -1rem -5rem -1rem 1rem;
+        width: 4.5rem;
+        height: 4.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-duration: 0.5s;
+}
+.feu{
+    color: #99e2d0;
+}
+.menu_card:hover .checking
+{
+    margin-right: -0.8rem;
+}
+.menu_card:hover .menu_card_confirm {
+    transform: rotate(0);
+  }
+  .foot{
+      margin-right: 2%;
+  }
+  .food{
+      margin-right: 3.6%;
+  }
+  .fa-heart:before
+  {
+      font-size: x-large;
+  }
 }
 
 @media only screen and (min-width : 650px) and (max-width: 1367px){
@@ -356,7 +512,10 @@
         max-width: 1400px;
         margin: 0 auto;
     }
-    
+    .fa-heart:before
+{
+    font-size: x-large;
+}
     .container_Repas
     {
         display: flex;
@@ -364,7 +523,12 @@
         justify-content: space-around;
     }
 
-
+    .foot{
+        margin-right: 2%;
+    }
+    .food{
+        margin-right: 3.6%;
+    }
     .maps
     {
         padding: 16px;
@@ -711,7 +875,117 @@
         width: 100%;
         padding-left: 12px;
     }
+    .RestoName1
+    {
+        display: flex;
+    }
+    .ft
+    {
+        font-weight: 400;
+        background: #000;
+        -webkit-background-clip: text;
+        color: transparent;
+        position: absolute;
+    
+    }
+    
+    .ft:hover 
+    {
+        background: linear-gradient(#9356DC, #FF79DA);
+        background-size: 100% 100%;
+        -webkit-background-clip: text;
+        font-weight: 900;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        animation: MyAnimation 0.3s linear;
+    }
+    
+    
+      @keyframes MyAnimation {
+        0% {
+          background-size: 100% 0%;
+        }
+        100% {
+          background-size: 100% 100%;
+        }
+    
+    }
+    .coeur
+    {
+    display: flex;
+    cursor: pointer;
+    }
+    .menu_card
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        position: relative;
+        background-color: white;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 0.5rem 0px #cfcfcf;
+        cursor: pointer;
 
+    }
+    .menu_card_text{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        flex: 1;
+    }
+    .menu_card_text_name{
+        margin: 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .menu_card_text_desc{
+        margin: 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .menu_card_price_text{
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-left: 0.5rem;
+    }
+    .menu_card_confirm{
+       height: 1.6rem;
+       width: 1.6rem;
+       background-color: white;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 100px;
+       transform: rotate(180deg);
+       transition-duration: 0.5s;
+    }
+.checking{
+        background-color: #99e2d0;
+        margin: -1rem -5rem -1rem 1rem;
+        width: 4.5rem;
+        height: 4.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-duration: 0.5s;
+}
+.feu{
+    color: #99e2d0;
+}
+.menu_card:hover .checking
+{
+    margin-right: -0.7rem;
+}
+.menu_card:hover .menu_card_confirm {
+    transform: rotate(0);
+  }
 
 }
 @media only screen and (min-width : 1367px){  
@@ -727,6 +1001,9 @@
         justify-content: space-around;
     }
     
+    .food{
+        margin-right: 0.2%;
+    }
     .maps
     {
         padding: 16px;
@@ -1010,6 +1287,10 @@
     position: relative;
     
     }
+    .RestoName1
+    {
+        display: flex;
+    }
     .mainresto
     {
         background-color: #f6f6f6;
@@ -1074,6 +1355,11 @@
         width: 100%;
         padding-left: 12px;
     }
+    .coeur
+    {
+    display: flex;
+    cursor: pointer;
+    }
 
 @keyframes Animation {
       
@@ -1096,25 +1382,112 @@
     animation: Animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-@keyframes MyAnimation {
-    from{
-        color: #020024;
+
+.fa-heart:before
+{
+    font-size: x-large;
+}
+.ft
+{
+    font-weight: 400;
+    background: #000;
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+
+}
+
+.ft:hover 
+{
+    background: linear-gradient(#9356DC, #FF79DA);
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    font-weight: 900;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    animation: MyAnimation 0.3s linear;
+}
+
+
+  @keyframes MyAnimation {
+    0% {
+      background-size: 100% 0%;
+    }
+    100% {
+      background-size: 100% 100%;
     }
 
-    to{
-        color: red;
+}
+.menu_card
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        position: relative;
+        background-color: white;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 0.5rem 0px #cfcfcf;
+        cursor: pointer;
+
     }
+    .menu_card_text{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        flex: 1;
+    }
+    .menu_card_text_name{
+        margin: 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .menu_card_text_desc{
+        margin: 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .menu_card_price_text{
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-left: 0.5rem;
+    }
+    .menu_card_confirm{
+       height: 1.6rem;
+       width: 1.6rem;
+       background-color: white;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 100px;
+       transform: rotate(180deg);
+       transition-duration: 0.5s;
+    }
+.checking{
+        background-color: #99e2d0;
+        margin: -1rem -5rem -1rem 1rem;
+        width: 4.5rem;
+        height: 4.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-duration: 0.5s;
 }
-.coeur:hover{
-
-    animation: MyAnimation 2s;
+.feu{
+    color: #99e2d0;
 }
-
-
-
-
-
-
+.menu_card:hover .checking
+{
+    margin-right: -0.7rem;
+}
+.menu_card:hover .menu_card_confirm {
+    transform: rotate(0);
+  }
 
 }
-

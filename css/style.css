@@ -530,7 +530,7 @@ cursor: pointer;
     width: 55px;
     background-color: #99e2d0;
 }
-.loading {
+.loader {
     z-index: 1000;
     position:fixed;
     width: 100%;
@@ -672,6 +672,62 @@ cursor: pointer;
       z-index: -1000;
     }
   }
+  .choice_content:hover{
+    background-color:#f5edff;
+}
+.lor
+{
+    color: grey;
+}
+.choice_content:hover
+.lor 
+{
+  color: #9356DC;
+}
+.container_Repas{
+    -webkit-animation: slide-in-blurred-left 2.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-blurred-left 2.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+@-webkit-keyframes slide-in-blurred-left {
+    0% {
+      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+      -webkit-transform-origin: 100% 50%;
+              transform-origin: 100% 50%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+              transform: translateX(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-blurred-left {
+    0% {
+      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+      -webkit-transform-origin: 100% 50%;
+              transform-origin: 100% 50%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+              transform: translateX(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
 }
 
 @media only screen and (min-width : 650px) and (max-width: 1367px){
@@ -697,6 +753,19 @@ cursor: pointer;
     }
     .food{
         margin-right: 3.6%;
+    }
+    .choice_content:hover
+    {
+        background-color:#f5edff;
+    }
+    .lor
+    {
+        color: grey;
+    }
+    .choice_content:hover
+    .lor 
+    {
+      color: #9356DC;
     }
     .maps
     {
@@ -1182,7 +1251,7 @@ cursor: pointer;
     width: 55px;
     background-color: #99e2d0;
 }
-.loading {
+.loader {
     z-index: 1000;
     position:fixed;
     width: 100%;
@@ -1324,7 +1393,50 @@ cursor: pointer;
       z-index: -1000;
     }
   }
-
+  .container_Repas{
+    -webkit-animation: slide-in-blurred-left 2.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-blurred-left 2.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+@-webkit-keyframes slide-in-blurred-left {
+    0% {
+      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+      -webkit-transform-origin: 100% 50%;
+              transform-origin: 100% 50%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+              transform: translateX(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-blurred-left {
+    0% {
+      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+      -webkit-transform-origin: 100% 50%;
+              transform-origin: 100% 50%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+              transform: translateX(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
 }
 @media only screen and (min-width : 1367px){  
     .container
@@ -1743,7 +1855,7 @@ cursor: pointer;
     }
   }
   
-    .loading {
+    .loader {
         z-index: 1000;
         position:fixed;
         width: 100%;
@@ -1888,6 +2000,7 @@ cursor: pointer;
 .fa-heart:before
 {
     font-size: x-large;
+    
 }
 .ft
 {
@@ -1920,7 +2033,7 @@ cursor: pointer;
     }
 
 }
-.menu_card
+    .menu_card
     {
         display: flex;
         justify-content: space-between;
@@ -2021,5 +2134,18 @@ cursor: pointer;
 .searchButton:hover {
     box-shadow: 4px 4px 10px #b6b6b6;
     background-image: linear-gradient(349deg, #020024 0%, #a16be0 0%, #ff46cc 100%);
+}
+
+.choice_content:hover{
+    background-color:#f5edff;
+}
+.lor
+{
+    color: grey;
+}
+.choice_content:hover
+.lor 
+{
+  color: #9356DC;
 }
 }

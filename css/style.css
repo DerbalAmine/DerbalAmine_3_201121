@@ -1,4 +1,3 @@
-@media only screen and (max-width: 649px){
     .maps
     {
         padding: 16px;
@@ -7,7 +6,8 @@
         align-items: center;
         background-color: #eaeaea;
     }
-    .maps i{
+    .maps i
+    {
         padding-right: 20px;
     }
     main h1
@@ -24,13 +24,15 @@
         padding-top: 10px;
         padding-bottom: 6px;
     }
-    .headerfr{
+    .headerfr
+    {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-right: 25%;
     }
-    .arrow{
+    .arrow
+    {
         margin-left: 7%;
         color: #020024;
     }
@@ -85,7 +87,6 @@
         font-size: 14px;
         padding: 7px;
     }
-    
     .figureResto img 
     {    
         height: 100%;
@@ -97,7 +98,6 @@
     {    
        display: none;
     }
-    
     .RestoDescription 
     {    
         display: flex;
@@ -106,7 +106,6 @@
         padding: 18px;
         background-color: white;
     }
-    
     .searchButton
     {
         padding: 16px 26px;
@@ -123,7 +122,6 @@
         padding: 35px 35px 70px 35px;
         background-color: #f6f6f6;
     }
-
     .presentation p
     {
         font-weight: 300;
@@ -155,6 +153,7 @@
         display: flex;
         padding-left: 7px;
     }
+    
     .choice_content
     {
         display: flex;
@@ -257,63 +256,12 @@
         margin-bottom: 10px;
 
     }
-    
-    .menu_card
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 10px;
-        position: relative;
-        background-color: white;
-        border-radius: 15px;
-        margin-bottom: 20px;
-        overflow: hidden;
-        box-shadow: 0px 0px 0.5rem 0px #cfcfcf;
-        cursor: pointer;
-
-    }
-    .menu_card_text{
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        flex: 1;
-    }
-    .menu_card_text_name{
-        margin: 0;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-    }
-    .menu_card_text_desc{
-        margin: 0;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-    }
-    .menu_card_price_text{
-        font-weight: bold;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        padding-left: 0.5rem;
-    }
-    .menu_card_confirm{
-        background-color: #008766;
-        margin: -1rem -5rem -1rem 1rem;
-        width: 4rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition-duration: 0.5s;
-    }
-
     .restomain
     {
     background-color: #f6f6f6;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    margin-top: -238px;
+    margin-top: -145px;
     padding-bottom: 56px;
     position: relative;
     
@@ -363,7 +311,7 @@
     .entrer
     {
         text-align: left;
-        max-width: 350px;
+        max-width: 94%;
         width: 100%;
         padding-left: 12px;
     
@@ -371,14 +319,14 @@
     .Plats
     {
         text-align: left;
-        max-width: 350px;
+        max-width: 94%;
         width: 100%;
         padding-left: 12px;
     }
     .Desserts
     {
         text-align: left;
-        max-width: 350px;
+        max-width: 94%;
         width: 100%;
         padding-left: 12px;
     }
@@ -395,7 +343,6 @@
     position: absolute;
 
 }
-
 .ft:hover 
 {
     background: linear-gradient(#9356DC, #FF79DA);
@@ -406,8 +353,6 @@
     background-repeat: no-repeat;
     animation: MyAnimation 0.3s linear;
 }
-
-
   @keyframes MyAnimation {
     0% {
       background-size: 100% 0%;
@@ -610,7 +555,6 @@ cursor: pointer;
       opacity: 1;
     }
   }
-  
   @keyframes theanimation {
     0% {
         -webkit-transform: scale(7);
@@ -728,31 +672,22 @@ cursor: pointer;
       opacity: 1;
     }
   }
-}
 
-@media only screen and (min-width : 650px) and (max-width: 1367px){
+@media only screen and (min-width : 650px) and (max-width: 1364px){
 
-    .container
-    {
-        max-width: 1400px;
-        margin: 0 auto;
-    }
-    .fa-heart:before
-{
-    font-size: x-large;
-}
-    .container_Repas
+  .container_Repas
     {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        margin-left: -10px;
     }
 
     .foot{
-        margin-right: 2%;
+        margin-right: 0.4%;
     }
     .food{
-        margin-right: 3.6%;
+        margin-right: 0.6%;
     }
     .choice_content:hover
     {
@@ -767,41 +702,16 @@ cursor: pointer;
     {
       color: #9356DC;
     }
-    .maps
-    {
-        padding: 16px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #eaeaea;
-    }
-    .maps i{
-        padding-right: 20px;
-    }
-    main h1
-    {
-        font-family: 'Shrikhand';
-        font-size: 28px;
-        font-weight: 400;
-        padding: 15px 3px 10px;
-        margin: 0px
-    }
     .logo img 
     {
         width: 175px;
         padding-top: 10px;
         padding-bottom: 6px;
     }
-    .headerfr{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    .headerfr
+    {
         padding-right: 40%;
         background-color: whitesmoke;
-    }
-    .arrow{
-        margin-left: 7%;
-        color: #020024;
     }
     .fonction
     {
@@ -837,36 +747,10 @@ cursor: pointer;
         height: 100%;
         margin: 0px;
     }
-    .imgResto
-    {
-        height: 70%;
-        width: 100%;
-        display: flex;
-        position: relative;
-        
-    }
-    .imgnew 
-    {
-        position: absolute;
-        right: 20px;
-        background-color: #99e2d0;
-        color: #008766;
-        font-size: 14px;
-        padding: 7px;
-    }
-    
-    .figureResto img 
-    {    
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        border-radius: 15px 15px 0px 0px;
-    }
     .imgnewnone 
     {    
        display: none;
     }
-    
     .RestoDescription 
     {    
         display: flex;
@@ -875,24 +759,15 @@ cursor: pointer;
         padding: 18px;
         background-color: white;
     }
-    
     .searchButton
     {
-        padding: 16px 26px;
-        background-image: linear-gradient(349deg, #020024 0%, #9356DC 0%, #FF79DA 100%);
-        border-radius: 100px;
-        color: white;
-        text-decoration: none;
-        box-shadow: 4px 4px 10px #cfcfcf;
-        cursor: pointer;
-        width: 60%;
+        width: 20%;
     }
     .presentation
     {
         padding: 35px 35px 70px 35px;
         background-color: #f6f6f6;
     }
-
     .presentation p
     {
         font-weight: 300;
@@ -924,53 +799,28 @@ cursor: pointer;
         display: flex;
         padding-left: 7px;
     }
-    .choice_content
-    {
-        display: flex;
-        align-items: center;
-        padding: 26px;
-        width: 75%;
-        background-color: #f6f6f6;
-        border-radius: 25px;
-        margin: 0 24px 24px 13px;
-        list-style-type: none;
-        box-shadow: 4px 4px 10px #cfcfcf;
-    }
+    
     .container-items
      {
-        box-sizing: border-box;
-        border-radius: 15px;
-        overflow: hidden;
-        box-shadow: 0 0 7px #c1c1c1;
-        margin: 15px 15px;
-        height: 245px;
         width: 330px;
-    }
-    .choice_number 
-    {
-        
-        padding: 6px 10px;
-        margin-right: -25px;
-        margin-top: 20px;
-        background: #9356DC;
-        border-radius: 60px;
-        color: white;
-        height: 1.2rem;
-        position: absolute;
-    }
+     }
+     
     .RestoName
     {
         margin: 0;
     }
-    
-    body 
+    .entrer
     {
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        font-family: 'Roboto', sans-serif,Verdana, Tahoma, sans-serif;
+        max-width: 350px;
     }
-    
+    .Plats
+    {
+        max-width: 350px;
+    }
+    .Desserts
+    {
+        max-width: 350px;
+    }
 
     .picture img 
     {
@@ -1024,421 +874,29 @@ cursor: pointer;
         margin-bottom: 10px;
 
     }
-    
-    .menu_card
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 10px;
-        position: relative;
-        background-color: white;
-        border-radius: 15px;
-        margin-bottom: 20px;
-        overflow: hidden;
-        box-shadow: 0px 0px 0.5rem 0px #cfcfcf;
-
-    }
     .restomain
     {
-    background-color: #f6f6f6;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+   
     margin-top: -238px;
-    padding-bottom: 56px;
-    position: relative;
     
     }
     .mainresto
     {
-        background-color: #f6f6f6;
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;
         margin-top: -52px;
-        padding-bottom: 56px;
-        position: relative;
     }
     #alafrancaise
     {
-        background-color: #f6f6f6;
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;
+       
         margin-top: -56px;
-        padding-bottom: 56px;
-        position: relative;
+       
     }
     #delicedessens
     {
-        background-color: #f6f6f6;
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;
         margin-top: -45px;
-        padding-bottom: 56px;
-        position: relative;
+       
     }
-    .entrer h2
-    {
-        font-weight: 300;
-        position: relative;
-    }
-    .Plats h2
-    {
-        font-weight: 300;
-        position: relative;
-    }
-    .Desserts h2
-    {
-        font-weight: 300;
-        position: relative;
-    }
-    .entrer
-    {
-        text-align: left;
-        max-width: 350px;
-        width: 100%;
-        padding-left: 12px;
-    
-    }
-    .Plats
-    {
-        text-align: left;
-        max-width: 350px;
-        width: 100%;
-        padding-left: 12px;
-    }
-    .Desserts
-    {
-        text-align: left;
-        max-width: 350px;
-        width: 100%;
-        padding-left: 12px;
-    }
-    .RestoName1
-    {
-        display: flex;
-    }
-    .ft
-    {
-        font-weight: 400;
-        background: #000;
-        -webkit-background-clip: text;
-        color: transparent;
-        position: absolute;
-    
-    }
-    
-    .ft:hover 
-    {
-        background: linear-gradient(#9356DC, #FF79DA);
-        background-size: 100% 100%;
-        -webkit-background-clip: text;
-        font-weight: 900;
-        background-position: bottom;
-        background-repeat: no-repeat;
-        animation: MyAnimation 0.3s linear;
-    }
-    
-    
-      @keyframes MyAnimation {
-        0% {
-          background-size: 100% 0%;
-        }
-        100% {
-          background-size: 100% 100%;
-        }
-    
-    }
-    .coeur
-    {
-    display: flex;
-    cursor: pointer;
-    }
-    .menu_card
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 10px;
-        position: relative;
-        background-color: white;
-        border-radius: 15px;
-        margin-bottom: 20px;
-        overflow: hidden;
-        box-shadow: 0px 0px 0.5rem 0px #cfcfcf;
-        cursor: pointer;
-
-    }
-    .menu_card_text{
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        flex: 1;
-    }
-    .menu_card_text_name{
-        margin: 0;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-    }
-    .menu_card_text_desc{
-        margin: 0;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-    }
-    .menu_card_price_text{
-        font-weight: bold;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        padding-left: 0.5rem;
-    }
-    .menu_card_confirm{
-       height: 1.6rem;
-       width: 1.6rem;
-       background-color: white;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       border-radius: 100px;
-       transform: rotate(180deg);
-       transition-duration: 0.5s;
-    }
-.checking{
-        background-color: #99e2d0;
-        margin: -1rem -5rem -1rem 1rem;
-        width: 4.5rem;
-        height: 4.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition-duration: 0.5s;
 }
-.feu{
-    color: #99e2d0;
-}
-.menu_card:hover .checking
-{
-    margin-right: -0.7rem;
-}
-.menu_card:hover .menu_card_confirm {
-    transform: rotate(0);
-  }
-  .entrer h2::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    height: 3px;
-    width: 65px;
-    background-color: #99e2d0;
-}
-.Plats h2::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    height: 3px;
-    width: 45px;
-    background-color: #99e2d0;
-}
-.Desserts h2::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    height: 3px;
-    width: 55px;
-    background-color: #99e2d0;
-}
-.loader {
-    z-index: 1000;
-    position:fixed;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: finish 200ms 2s forwards;
-  }
-  .loading_spinner {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background-color: transparent;
-    border-radius: 50%;
-    border: 8px solid #9356DC;
-    animation: theanimation 1.1s both;
-  }
-  .loading_spinner_second {
-    border: 6px solid #FF79DA;
-    animation: theanimation1 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background-color: transparent;
-    border-radius: 50%;
-  }
-  .loading_spinner_three {
-    border: 4px solid #93e2d0;
-    animation: theanimation2 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background-color: transparent;
-    border-radius: 50%;
-  }
-  @keyframes theanimation2 {
-    0% {
-      -webkit-transform: translate(-1000px, -1000px) skew(80deg, 10deg);
-              transform: translate(-1000px, -1000px) skew(80deg, 10deg);
-      -webkit-transform-origin: 100% 0%;
-              transform-origin: 100% 0%;
-      -webkit-filter: blur(40px);
-              filter: blur(40px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translate(0, 0) skew(0deg, 0deg);
-              transform: translate(0, 0) skew(0deg, 0deg);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      -webkit-filter: blur(0);
-              filter: blur(0);
-      opacity: 1;
-    }
-  }
-  
-
-  @keyframes theanimation1 {
-    0% {
-      -webkit-transform: translate(1000px, -1000px) skew(-80deg, -10deg);
-              transform: translate(1000px, -1000px) skew(-80deg, -10deg);
-      -webkit-transform-origin: 0% 0%;
-              transform-origin: 0% 0%;
-      -webkit-filter: blur(40px);
-              filter: blur(40px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translate(0, 0) skew(0deg, 0deg);
-              transform: translate(0, 0) skew(0deg, 0deg);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      -webkit-filter: blur(0);
-              filter: blur(0);
-      opacity: 1;
-    }
-  }
-  
-  @keyframes theanimation {
-    0% {
-        -webkit-transform: scale(7);
-                transform: scale(7);
-        -webkit-animation-timing-function: ease-in;
-                animation-timing-function: ease-in;
-        opacity: 0;
-      }
-      38% {
-        -webkit-transform: scale(1);
-                transform: scale(1);
-        -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
-        opacity: 1;
-      }
-      55% {
-        -webkit-transform: scale(1.5);
-                transform: scale(1.5);
-        -webkit-animation-timing-function: ease-in;
-                animation-timing-function: ease-in;
-      }
-      72% {
-        -webkit-transform: scale(1);
-                transform: scale(1);
-        -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
-      }
-      81% {
-        -webkit-transform: scale(1.24);
-                transform: scale(1.24);
-        -webkit-animation-timing-function: ease-in;
-                animation-timing-function: ease-in;
-      }
-      89% {
-        -webkit-transform: scale(1);
-                transform: scale(1);
-        -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
-      }
-      95% {
-        -webkit-transform: scale(1.04);
-                transform: scale(1.04);
-        -webkit-animation-timing-function: ease-in;
-                animation-timing-function: ease-in;
-      }
-      100% {
-        -webkit-transform: scale(1);
-                transform: scale(1);
-        -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
-      }
-  }
-  @keyframes finish {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-      z-index: -1000;
-    }
-  }
-  .container_Repas{
-    -webkit-animation: slide-in-blurred-left 2.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	        animation: slide-in-blurred-left 2.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-}
-@-webkit-keyframes slide-in-blurred-left {
-    0% {
-      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-      -webkit-transform-origin: 100% 50%;
-              transform-origin: 100% 50%;
-      -webkit-filter: blur(40px);
-              filter: blur(40px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
-              transform: translateX(0) scaleY(1) scaleX(1);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      -webkit-filter: blur(0);
-              filter: blur(0);
-      opacity: 1;
-    }
-  }
-  @keyframes slide-in-blurred-left {
-    0% {
-      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-      -webkit-transform-origin: 100% 50%;
-              transform-origin: 100% 50%;
-      -webkit-filter: blur(40px);
-              filter: blur(40px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
-              transform: translateX(0) scaleY(1) scaleX(1);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      -webkit-filter: blur(0);
-              filter: blur(0);
-      opacity: 1;
-    }
-  }
-}
-@media only screen and (min-width : 1367px){  
+@media only screen and (min-width : 1365px){  
     .container
     {
         max-width: 1400px;
@@ -1454,14 +912,7 @@ cursor: pointer;
     .food{
         margin-right: 0.2%;
     }
-    .maps
-    {
-        padding: 16px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #eaeaea;
-    }
+   
     .maps i{
         padding-right: 20px;
     }
@@ -1479,14 +930,13 @@ cursor: pointer;
         padding-top: 10px;
         padding-bottom: 6px;
     }
-    .headerfr{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    .headerfr
+    {
         padding-right: 45%;
         background-color: whitesmoke;
     }
-    .arrow{
+    .arrow
+    {
         margin-left: 7%;
         color: #020024;
     }
@@ -1516,30 +966,6 @@ cursor: pointer;
         color: #020024;
         height: 100%;
     }
-    
-    .figureResto 
-    {    
-        height: 100%;
-        margin: 0px;
-    }
-    .imgResto
-    {
-        height: 70%;
-        width: 100%;
-        display: flex;
-        position: relative;
-        
-    }
-    .imgnew 
-    {
-        position: absolute;
-        right: 20px;
-        background-color: #99e2d0;
-        color: #008766;
-        font-size: 14px;
-        padding: 7px;
-    }
-    
     .figureResto img 
     {    
         height: 100%;
@@ -1551,7 +977,18 @@ cursor: pointer;
     {    
        display: none;
     }
-    
+    .entrer
+    {
+        max-width: 350px;
+    }
+    .Plats
+    {
+        max-width: 350px;
+    }
+    .Desserts
+    {
+        max-width: 350px;
+    }
     .RestoDescription 
     {    
         display: flex;
@@ -1563,21 +1000,13 @@ cursor: pointer;
     
     .searchButton
     {
-        padding: 16px 26px;
-        background-image: linear-gradient(349deg, #020024 0%, #9356DC 0%, #FF79DA 100%);
-        border-radius: 100px;
-        color: white;
-        text-decoration: none;
-        box-shadow: 4px 4px 10px #cfcfcf;
-        cursor: pointer;
-        width: 30%;
+        width: 20%;
     }
     .presentation
     {
         padding: 35px 35px 70px 35px;
         background-color: #f6f6f6;
     }
-
     .presentation p
     {
         font-weight: 300;
@@ -1591,9 +1020,7 @@ cursor: pointer;
     .fonction h2
     {
     text-align: center;
-  
     }
-
     .choice-1
     {
     display: flex;
@@ -1609,53 +1036,16 @@ cursor: pointer;
         display: flex;
         padding-left: 7px;
     }
-    .choice_content
-    {
-        display: flex;
-        align-items: center;
-        padding: 26px;
-        width: 75%;
-        background-color: #f6f6f6;
-        border-radius: 25px;
-        margin: 0 24px 24px 13px;
-        list-style-type: none;
-        box-shadow: 4px 4px 10px #cfcfcf;
-    }
+    
     .container-items
-     {
-        box-sizing: border-box;
-        border-radius: 15px;
-        overflow: hidden;
-        box-shadow: 0 0 7px #c1c1c1;
-        margin: 15px 15px;
-        height: 245px;
+    {
         width: 330px;
     }
-    .choice_number 
-    {
-        
-        padding: 6px 10px;
-        margin-right: -25px;
-        margin-top: 20px;
-        background: #9356DC;
-        border-radius: 60px;
-        color: white;
-        height: 1.2rem;
-        position: absolute;
-    }
+
     .RestoName
     {
         margin: 0;
     }
-    
-    body 
-    {
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        font-family: 'Roboto', sans-serif,Verdana, Tahoma, sans-serif;
-    }
-    
     .titleResto
     {
         padding-left: 26px;
@@ -1663,11 +1053,12 @@ cursor: pointer;
     .picture img 
     {
         width: 100%;
+        object-position: 0px -355px;
     }
     .neopicture img
     {
         width: 100%;
-        object-position: 0% -75px;
+        object-position: 0% -550px;
     }
 
     .titleName
@@ -1712,30 +1103,9 @@ cursor: pointer;
         margin-bottom: 10px;
 
     }
-    
-    .menu_card
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 10px;
-        position: relative;
-        background-color: white;
-        border-radius: 15px;
-        margin-bottom: 20px;
-        overflow: hidden;
-        box-shadow: 0px 0px 0.5rem 0px #cfcfcf;
-
-    }
     .restomain
     {
-    background-color: #f6f6f6;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    margin-top: -238px;
-    padding-bottom: 56px;
-    position: relative;
-    
+         margin-top: -750px;
     }
     .RestoName1
     {
@@ -1743,360 +1113,23 @@ cursor: pointer;
     }
     .mainresto
     {
-        background-color: #f6f6f6;
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;
-        margin-top: -25%;
-        padding-bottom: 56px;
-        position: relative;
+        margin-top: -440px; 
     }
     #alafrancaise
     {
-        background-color: #f6f6f6;
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;
-        margin-top: -56px;
-        padding-bottom: 56px;
-        position: relative;
+        margin-top: -403px;
     }
     #delicedessens
     {
-        background-color: #f6f6f6;
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;
-        margin-top: -45px;
-        padding-bottom: 56px;
-        position: relative;
+        margin-top: -421px; 
     }
-    .entrer h2
-    {
-        font-weight: 300;
-        position: relative;
-    }
-    .Plats h2
-    {
-        font-weight: 300;
-        position: relative;
-    }
-    .Desserts h2
-    {
-        font-weight: 300;
-        position: relative;
-    }
-    .entrer
-    {
-        text-align: left;
-        max-width: 350px;
-        width: 100%;
-        padding-left: 12px;
-    
-    }
-    .Plats
-    {
-        text-align: left;
-        max-width: 350px;
-        width: 100%;
-        padding-left: 12px;
-    }
-    .Desserts
-    {
-        text-align: left;
-        max-width: 350px;
-        width: 100%;
-        padding-left: 12px;
-    }
+
     .coeur
     {
     display: flex;
     cursor: pointer;
     }
-.container_Repas{
-    -webkit-animation: slide-in-blurred-left 2.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	        animation: slide-in-blurred-left 2.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-}
-@-webkit-keyframes slide-in-blurred-left {
-    0% {
-      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-      -webkit-transform-origin: 100% 50%;
-              transform-origin: 100% 50%;
-      -webkit-filter: blur(40px);
-              filter: blur(40px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
-              transform: translateX(0) scaleY(1) scaleX(1);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      -webkit-filter: blur(0);
-              filter: blur(0);
-      opacity: 1;
-    }
-  }
-  @keyframes slide-in-blurred-left {
-    0% {
-      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
-      -webkit-transform-origin: 100% 50%;
-              transform-origin: 100% 50%;
-      -webkit-filter: blur(40px);
-              filter: blur(40px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
-              transform: translateX(0) scaleY(1) scaleX(1);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      -webkit-filter: blur(0);
-              filter: blur(0);
-      opacity: 1;
-    }
-  }
-  
-    .loader {
-        z-index: 1000;
-        position:fixed;
-        width: 100%;
-        height: 100%;
-        background-color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        animation: finish 200ms 2s forwards;
-      }
-      .loading_spinner {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        background-color: transparent;
-        border-radius: 50%;
-        border: 8px solid #9356DC;
-        animation: theanimation 2s both;
-      }
-      .loading_spinner_second {
-        border: 6px solid #FF79DA;
-        animation: theanimation1 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        background-color: transparent;
-        border-radius: 50%;
-      }
-      .loading_spinner_three {
-        border: 4px solid #93e2d0;
-        animation: theanimation2 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        background-color: transparent;
-        border-radius: 50%;
-      }
-      @keyframes theanimation2 {
-        0% {
-          -webkit-transform: translate(-1000px, -1000px) skew(80deg, 10deg);
-                  transform: translate(-1000px, -1000px) skew(80deg, 10deg);
-          -webkit-transform-origin: 100% 0%;
-                  transform-origin: 100% 0%;
-          -webkit-filter: blur(40px);
-                  filter: blur(40px);
-          opacity: 0;
-        }
-        100% {
-          -webkit-transform: translate(0, 0) skew(0deg, 0deg);
-                  transform: translate(0, 0) skew(0deg, 0deg);
-          -webkit-transform-origin: 50% 50%;
-                  transform-origin: 50% 50%;
-          -webkit-filter: blur(0);
-                  filter: blur(0);
-          opacity: 1;
-        }
-      }
-      
-
-      @keyframes theanimation1 {
-        0% {
-          -webkit-transform: translate(1000px, -1000px) skew(-80deg, -10deg);
-                  transform: translate(1000px, -1000px) skew(-80deg, -10deg);
-          -webkit-transform-origin: 0% 0%;
-                  transform-origin: 0% 0%;
-          -webkit-filter: blur(40px);
-                  filter: blur(40px);
-          opacity: 0;
-        }
-        100% {
-          -webkit-transform: translate(0, 0) skew(0deg, 0deg);
-                  transform: translate(0, 0) skew(0deg, 0deg);
-          -webkit-transform-origin: 50% 50%;
-                  transform-origin: 50% 50%;
-          -webkit-filter: blur(0);
-                  filter: blur(0);
-          opacity: 1;
-        }
-      }
-      
-      @keyframes theanimation {
-        0% {
-            -webkit-transform: scale(7);
-                    transform: scale(7);
-            -webkit-animation-timing-function: ease-in;
-                    animation-timing-function: ease-in;
-            opacity: 0;
-          }
-          38% {
-            -webkit-transform: scale(1);
-                    transform: scale(1);
-            -webkit-animation-timing-function: ease-out;
-                    animation-timing-function: ease-out;
-            opacity: 1;
-          }
-          55% {
-            -webkit-transform: scale(1.5);
-                    transform: scale(1.5);
-            -webkit-animation-timing-function: ease-in;
-                    animation-timing-function: ease-in;
-          }
-          72% {
-            -webkit-transform: scale(1);
-                    transform: scale(1);
-            -webkit-animation-timing-function: ease-out;
-                    animation-timing-function: ease-out;
-          }
-          81% {
-            -webkit-transform: scale(1.24);
-                    transform: scale(1.24);
-            -webkit-animation-timing-function: ease-in;
-                    animation-timing-function: ease-in;
-          }
-          89% {
-            -webkit-transform: scale(1);
-                    transform: scale(1);
-            -webkit-animation-timing-function: ease-out;
-                    animation-timing-function: ease-out;
-          }
-          95% {
-            -webkit-transform: scale(1.04);
-                    transform: scale(1.04);
-            -webkit-animation-timing-function: ease-in;
-                    animation-timing-function: ease-in;
-          }
-          100% {
-            -webkit-transform: scale(1);
-                    transform: scale(1);
-            -webkit-animation-timing-function: ease-out;
-                    animation-timing-function: ease-out;
-          }
-      }
-      @keyframes finish {
-        0% {
-          opacity: 1;
-        }
-        100% {
-          opacity: 0;
-          z-index: -1000;
-        }
-      }
-.fa-heart:before
-{
-    font-size: x-large;
-    
-}
-.ft
-{
-    font-weight: 400;
-    background:#020024;
-    -webkit-background-clip: text;
-    color: transparent;
-    position: absolute;
-
-}
-
-.ft:hover 
-{
-    background: linear-gradient(#9356DC, #FF79DA);
-    background-size: 100% 100%;
-    -webkit-background-clip: text;
-    font-weight: 1000;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    animation: MyAnimation 0.3s linear;
-}
-
-
-  @keyframes MyAnimation {
-    0% {
-      background-size: 100% 0%;
-    }
-    100% {
-      background-size: 100% 100%;
-    }
-
-}
-    .menu_card
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 10px;
-        position: relative;
-        background-color: white;
-        border-radius: 15px;
-        margin-bottom: 20px;
-        overflow: hidden;
-        box-shadow: 0px 0px 0.5rem 0px #cfcfcf;
-        cursor: pointer;
-
-    }
-    .menu_card_text{
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        flex: 1;
-    }
-    .menu_card_text_name{
-        margin: 0;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-    }
-    .menu_card_text_desc{
-        margin: 0;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-    }
-    .menu_card_price_text{
-        font-weight: bold;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        padding-left: 0.5rem;
-    }
-    .menu_card_confirm{
-       height: 1.6rem;
-       width: 1.6rem;
-       background-color: white;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       border-radius: 100px;
-       transform: rotate(180deg);
-       transition-duration: 0.5s;
-    }
-.checking{
-        background-color: #99e2d0;
-        margin: -1rem -5rem -1rem 1rem;
-        width: 4.5rem;
-        height: 4.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition-duration: 0.5s;
-}
-.feu{
-    color: #99e2d0;
-}
+   
 .menu_card:hover .checking
 {
     margin-right: -0.7rem;
@@ -2104,48 +1137,18 @@ cursor: pointer;
 .menu_card:hover .menu_card_confirm {
     transform: rotate(0);
   }
-.entrer h2::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    height: 3px;
-    width: 65px;
-    background-color: #99e2d0;
-}
-.Plats h2::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    height: 3px;
-    width: 45px;
-    background-color: #99e2d0;
-}
-.Desserts h2::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    height: 3px;
-    width: 55px;
-    background-color: #99e2d0;
-}
+
 .searchButton:hover {
     box-shadow: 4px 4px 10px #b6b6b6;
     background-image: linear-gradient(349deg, #020024 0%, #a16be0 0%, #ff46cc 100%);
 }
 
-.choice_content:hover{
-    background-color:#f5edff;
-}
-.lor
-{
-    color: grey;
-}
 .choice_content:hover
 .lor 
 {
   color: #9356DC;
+}
+.foot{
+    margin-right: 0px;
 }
 }

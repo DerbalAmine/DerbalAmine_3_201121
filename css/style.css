@@ -199,7 +199,10 @@
         padding: 0;
         font-family: 'Roboto', sans-serif,Verdana, Tahoma, sans-serif;
     }
-    
+    .menu_card_right
+    {
+        padding-top: 20px;
+    }
     .titleResto
     {
         padding-left: 26px;
@@ -362,6 +365,12 @@
     }
 
 }
+.platenchantee{
+    object-position: 0 -115px;
+}
+.platfrancais{
+    object-position: 0 -43px;
+}
 .coeur
 {
 display: flex;
@@ -406,6 +415,7 @@ cursor: pointer;
         justify-content: flex-end;
         align-items: flex-end;
         padding-left: 0.5rem;
+        padding-right: 10px;
     }
     .menu_card_confirm{
        height: 1.6rem;
@@ -427,6 +437,7 @@ cursor: pointer;
         align-items: center;
         justify-content: center;
         transition-duration: 0.5s;
+        padding-right: 7px;
 }
 .feu{
     color: #99e2d0;
@@ -961,7 +972,7 @@ cursor: pointer;
         display: flex;
     }
     .container-items a
-     {
+    {
         text-decoration: none;
         color: #020024;
         height: 100%;
@@ -1150,5 +1161,11 @@ cursor: pointer;
 }
 .foot{
     margin-right: 0px;
+}
+.platfrancais{
+    object-position: 0 0;
+}
+.platenchantee{
+    object-position: 0 -90px;
 }
 }
